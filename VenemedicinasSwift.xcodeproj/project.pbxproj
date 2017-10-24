@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EADDDBF1F98CB6E0027BC8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADDDBE1F98CB6E0027BC8A /* AppDelegate.swift */; };
+		6EADDDC11F98CB6E0027BC8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADDDC01F98CB6E0027BC8A /* ViewController.swift */; };
+		6EADDDC41F98CB6E0027BC8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EADDDC21F98CB6E0027BC8A /* Main.storyboard */; };
+		6EADDDC61F98CB6E0027BC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EADDDC51F98CB6E0027BC8A /* Assets.xcassets */; };
+		6EADDDC91F98CB6E0027BC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EADDDC71F98CB6E0027BC8A /* LaunchScreen.storyboard */; };
+		6EC2C52D1F9D52A600CBC2E2 /* MedicineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2C52C1F9D52A600CBC2E2 /* MedicineCell.swift */; };
+		6EC2C52F1F9D59AC00CBC2E2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2C52E1F9D59AC00CBC2E2 /* Medicine.swift */; };
+		6EC2C5311F9D59EC00CBC2E2 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC2C5301F9D59EC00CBC2E2 /* Variant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EADDDBB1F98CB6E0027BC8A /* VenemedicinasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenemedicinasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EADDDBE1F98CB6E0027BC8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EADDDC01F98CB6E0027BC8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EADDDC31F98CB6E0027BC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EADDDC51F98CB6E0027BC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EADDDC81F98CB6E0027BC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EADDDCA1F98CB6E0027BC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC2C52C1F9D52A600CBC2E2 /* MedicineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCell.swift; sourceTree = "<group>"; };
+		6EC2C52E1F9D59AC00CBC2E2 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		6EC2C5301F9D59EC00CBC2E2 /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EADDDB81F98CB6E0027BC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EADDDB21F98CB6E0027BC8A = {
+			isa = PBXGroup;
+			children = (
+				6EADDDBD1F98CB6E0027BC8A /* VenemedicinasSwift */,
+				6EADDDBC1F98CB6E0027BC8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EADDDBC1F98CB6E0027BC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EADDDBB1F98CB6E0027BC8A /* VenemedicinasSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EADDDBD1F98CB6E0027BC8A /* VenemedicinasSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6EADDDBE1F98CB6E0027BC8A /* AppDelegate.swift */,
+				6EC2C52C1F9D52A600CBC2E2 /* MedicineCell.swift */,
+				6EADDDC01F98CB6E0027BC8A /* ViewController.swift */,
+				6EC2C52E1F9D59AC00CBC2E2 /* Medicine.swift */,
+				6EC2C5301F9D59EC00CBC2E2 /* Variant.swift */,
+				6EADDDC21F98CB6E0027BC8A /* Main.storyboard */,
+				6EADDDC51F98CB6E0027BC8A /* Assets.xcassets */,
+				6EADDDC71F98CB6E0027BC8A /* LaunchScreen.storyboard */,
+				6EADDDCA1F98CB6E0027BC8A /* Info.plist */,
+			);
+			path = VenemedicinasSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EADDDBA1F98CB6E0027BC8A /* VenemedicinasSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EADDDCD1F98CB6E0027BC8A /* Build configuration list for PBXNativeTarget "VenemedicinasSwift" */;
+			buildPhases = (
+				6EADDDB71F98CB6E0027BC8A /* Sources */,
+				6EADDDB81F98CB6E0027BC8A /* Frameworks */,
+				6EADDDB91F98CB6E0027BC8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenemedicinasSwift;
+			productName = VenemedicinasSwift;
+			productReference = 6EADDDBB1F98CB6E0027BC8A /* VenemedicinasSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EADDDB31F98CB6E0027BC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = kicyiusoft;
+				TargetAttributes = {
+					6EADDDBA1F98CB6E0027BC8A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6EADDDB61F98CB6E0027BC8A /* Build configuration list for PBXProject "VenemedicinasSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EADDDB21F98CB6E0027BC8A;
+			productRefGroup = 6EADDDBC1F98CB6E0027BC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EADDDBA1F98CB6E0027BC8A /* VenemedicinasSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EADDDB91F98CB6E0027BC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EADDDC91F98CB6E0027BC8A /* LaunchScreen.storyboard in Resources */,
+				6EADDDC61F98CB6E0027BC8A /* Assets.xcassets in Resources */,
+				6EADDDC41F98CB6E0027BC8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EADDDB71F98CB6E0027BC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EADDDC11F98CB6E0027BC8A /* ViewController.swift in Sources */,
+				6EADDDBF1F98CB6E0027BC8A /* AppDelegate.swift in Sources */,
+				6EC2C52D1F9D52A600CBC2E2 /* MedicineCell.swift in Sources */,
+				6EC2C5311F9D59EC00CBC2E2 /* Variant.swift in Sources */,
+				6EC2C52F1F9D59AC00CBC2E2 /* Medicine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EADDDC21F98CB6E0027BC8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EADDDC31F98CB6E0027BC8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EADDDC71F98CB6E0027BC8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EADDDC81F98CB6E0027BC8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EADDDCB1F98CB6E0027BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EADDDCC1F98CB6E0027BC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EADDDCE1F98CB6E0027BC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = "$(SRCROOT)/VenemedicinasSwift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VenemedicinasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EADDDCF1F98CB6E0027BC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4452HV7WN2;
+				INFOPLIST_FILE = "$(SRCROOT)/VenemedicinasSwift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VenemedicinasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EADDDB61F98CB6E0027BC8A /* Build configuration list for PBXProject "VenemedicinasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EADDDCB1F98CB6E0027BC8A /* Debug */,
+				6EADDDCC1F98CB6E0027BC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EADDDCD1F98CB6E0027BC8A /* Build configuration list for PBXNativeTarget "VenemedicinasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EADDDCE1F98CB6E0027BC8A /* Debug */,
+				6EADDDCF1F98CB6E0027BC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EADDDB31F98CB6E0027BC8A /* Project object */;
+}
